@@ -50,7 +50,7 @@ func Authorizer(config Configuration) gin.HandlerFunc {
 
 // GetTokenFromContext get the token from the request
 // config: Configuration created by NewConfiguration or DefaultConfiguration
-// return: token string
+// return: token (string)
 func GetTokenFromContext(c *gin.Context, config Configuration) string {
 	// find the token from the request
 	token := c.GetHeader(config.ParamName)
