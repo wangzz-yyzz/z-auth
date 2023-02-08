@@ -1,4 +1,4 @@
-module z-auth
+module github.com/wangzz-yyzz/z-auth
 
 go 1.20
 
