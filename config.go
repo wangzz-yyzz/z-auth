@@ -9,10 +9,11 @@ type Configuration struct {
 }
 
 // DefaultConfiguration returns a default configuration
+// for most cases, you can use this configuration and change the jwt secret and expire time only
 // return: Configuration
 func DefaultConfiguration() Configuration {
 	return Configuration{
-		JwtSecret:  "abc",
+		JwtSecret:  "dafjk@fksvj34!4dsf",
 		UserName:   "admin",
 		ExpireTime: 3,
 		Signer:     "z-auth",
