@@ -11,6 +11,7 @@ type Claims struct {
 }
 
 // GenerateToken generate token string with the configuration
+// generate when the auth is passed
 // config: Configuration created by NewConfiguration or DefaultConfiguration
 // return: token string
 func GenerateToken(config Configuration) (string, error) {
